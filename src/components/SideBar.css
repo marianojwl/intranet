@@ -1,0 +1,39 @@
+/* SideBar.css */
+.sidebar {
+  width: 60px;
+  transition: width 0.3s;
+  background-color: #343a40;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar.expanded {
+  width: 250px;
+}
+
+.sidebar .nav {
+  flex-grow: 1;
+}
+
+.sidebar .nav .btn {
+  border-radius: 0;
+}
+
+.sidebar .text-white {
+  color: #fff;
+}
+.sidebar a {
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.sidebar .p-3 {
+  padding: 1rem !important;
+}
+
+.sidebar-toggle {
+  cursor: pointer;
+  text-decoration: none;
+}
+
